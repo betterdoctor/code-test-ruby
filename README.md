@@ -61,6 +61,7 @@ Doctor Finder is a minimal search engine to find Doctors using [BetterDoctor API
 * Create secret_key for your app: `bundle exec rake secret` (Check secrets.yml on this project)
 * Get an API key from [BetterDoctor API](https://developer.betterdoctor.com/)
 * Paste the API key in .env file
-* [BetterDoctor API documentation](https://developer.betterdoctor.com/documentation15#/)
+
+Reference: [BetterDoctor API documentation](https://developer.betterdoctor.com/documentation15#/)
 
 Note: Please do not post the solution as this is a public repo.
