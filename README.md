@@ -10,7 +10,7 @@ Doctor Finder is a minimal search engine to find Doctors using [BetterDoctor API
   * Doctor's specialties (Array)
   * Doctor's insurances (Array): Map "insurance_uids" to the labels. (Retrieve insurance providers and plans `GET /insurances`)
   * Is Doctor a Primary Care Physician? (Boolean) 
-    * If Doctor's specialties comes within the following list then he is a Primary Care Physician:
+    * If Doctor's specialties comes within the following list then doctor is a Primary Care Physician:
       ```
         'family-practitioner', 'family-medicine-adult-medicine',
         'general-practice', 'general-practitioner', 'internist',
